@@ -15,10 +15,11 @@ int main() {
    
    discriminant = b*b - 4*a*c;
    
-   root = (-b + sqrt(fabs(discriminant))) / (2*a);
+   root = (-b + sqrt(discriminant)) / (2*a);
    
    printf("Positive root = %.2f\n", root);
 
     return 0;
 }
+
 
